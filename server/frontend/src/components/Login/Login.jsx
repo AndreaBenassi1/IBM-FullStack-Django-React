@@ -33,7 +33,7 @@ const Login = ({ onClose }) => {
     else {
       alert("The user could not be authenticated.")
     }
-};
+  };
 
   if (!open) {
     window.location.href = "/";
